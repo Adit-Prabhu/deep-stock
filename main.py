@@ -1,6 +1,7 @@
 """Main script for running the stock prediction model."""
 
 import os
+import numpy as np
 from sklearn.model_selection import train_test_split
 from src.data.stock_data import get_stock_data, create_candlestick_chart
 from src.data.image_data import load_images
@@ -77,7 +78,7 @@ def main():
         
         # Save Model
         print("Saving model...")
-        model.save('stock_prediction_model.h5')
+        model.save('deep-stock-predictor.keras')
         print("Model saved successfully!")
         
     except Exception as e:

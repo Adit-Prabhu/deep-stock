@@ -6,7 +6,7 @@ from typing import Tuple
 import numpy as np
 from .cnn import build_cnn_model
 from .lstm import build_lstm_model
-from ...config import (CHART_SIZE, DENSE_UNITS, BATCH_SIZE,
+from config import (CHART_SIZE, DENSE_UNITS, BATCH_SIZE,
                       EPOCHS, VALIDATION_SPLIT)
 
 def build_combined_model(

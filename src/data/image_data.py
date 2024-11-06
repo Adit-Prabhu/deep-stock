@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 import os
 from typing import List, Tuple
-from ...config import CHART_SIZE
+from config import CHART_SIZE
 
 def load_images(
     image_dir: str,

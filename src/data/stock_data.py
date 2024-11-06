@@ -5,7 +5,7 @@ import pandas as pd
 from typing import Tuple, Optional
 import matplotlib.pyplot as plt
 import os
-from ...config import CHART_DIR, WINDOW_SIZE
+from config import CHART_DIR, WINDOW_SIZE
 
 def get_stock_data(
     ticker: str,

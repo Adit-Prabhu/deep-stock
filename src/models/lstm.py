@@ -3,7 +3,7 @@
 from tensorflow.keras.layers import Input, LSTM, Dense
 from tensorflow.keras.models import Model
 from typing import Tuple
-from ...config import LSTM_UNITS, DENSE_UNITS
+from config import LSTM_UNITS, DENSE_UNITS
 
 def build_lstm_model(input_shape: Tuple[int, int]) -> Tuple[Input, Dense]:
     """

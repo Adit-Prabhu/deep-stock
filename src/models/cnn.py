@@ -3,7 +3,7 @@
 from tensorflow.keras.layers import Input, Conv2D, Flatten, Dense, Dropout
 from tensorflow.keras.models import Model
 from typing import Tuple
-from ...config import CNN_FILTERS, CNN_KERNEL_SIZE, DENSE_UNITS, DROPOUT_RATE
+from config import CNN_FILTERS, CNN_KERNEL_SIZE, DENSE_UNITS, DROPOUT_RATE
 
 def build_cnn_model(input_shape: Tuple[int, int, int]) -> Tuple[Input, Dense]:
     """

@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from typing import Tuple
 import pandas as pd
-from ...config import WINDOW_SIZE
+from config import WINDOW_SIZE
 
 def prepare_time_series_data(
     data: pd.DataFrame,
