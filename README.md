@@ -4,7 +4,7 @@ This project implements a hybrid deep learning model for stock price prediction 
 
 ## Project Structure
 ```
-stock_prediction/
+deep-stock/
 ├── README.md
 ├── requirements.txt
 ├── config.py
