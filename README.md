@@ -48,6 +48,7 @@ model = train_model(data)
 ## Model Performance
 - Test Loss: 0.0040
 - Test MAE: 0.0508
+
 The model shows low error rates on test data, indicating effective performance in predicting stock prices.
 
 ## Features
